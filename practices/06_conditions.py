@@ -1,4 +1,4 @@
-import re_module as rm
+import practices.re_module as rm
 
 test_string = """
 hello world

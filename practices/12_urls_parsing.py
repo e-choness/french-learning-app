@@ -1,4 +1,4 @@
-import re_module as rm
+import practices.re_module as rm
 
 # This is an example of urls parsing using regex.
 urls = """

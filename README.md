@@ -1,6 +1,14 @@
 # python-regex-full
 
-Extensive practices of python regex syntax and use cases.
+## Remove redundant headers and footers in book texts
+
+### Usage
+
+- Install python3.
+- Under books/ directory run "python convert_book_texts.py" in IDE. Or run it from console command under the root directory.
+- All processed book contents are saved in books/Text/ directory.
+
+## Extensive practices of python regex syntax and use cases
 
 - [x] re module
 - [x] Methods to search for matches
