@@ -11,7 +11,7 @@ Extensive practices of python regex syntax and use cases.
 - findall(): Find all substrings where the RE matches, and returns them as a list.
 - finditer(): Find all substrings where the RE matches, and returns them as an iterator.
 
-- [ ] Meta characters
+- [x] Meta characters
 
 Metacharacters are characters with a special meaning:
 All meta characters: . ^ $ * + ? { } [ ] \ | ( )
@@ -28,7 +28,7 @@ Meta characters need need to be escaped (with ) if we actually want to search fo
 - | Either or "falls|stays"
 - ( ) Capture and group
 
-- [ ] More special sequences
+- [x] More special sequences
 
 A special sequence is a \ followed by one of the characters in the list below, and has a special meaning:
 
