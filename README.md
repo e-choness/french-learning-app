@@ -43,7 +43,7 @@ A special sequence is a \ followed by one of the characters in the list below, a
 - \A Returns a match if the specified characters are at the beginning of the string "\AThe"
 - \Z Returns a match if the specified characters are at the end of the string "Spain\Z"
 - 
-- [ ] Sets
+- [x] Sets
 - [ ] Quantifier
 - [ ] Conditions
 - [ ] Grouping
