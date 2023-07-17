@@ -30,7 +30,7 @@ def print_result(results):
     else:
         for result in results:
             if type(result) == re.Match:
-                print(result.span(), result.start(), result.end(), result.group(0))
+                print(result.span(), result.start(), result.end(), "\"{0}\"".format(result.group(0)))
             else:
                 print(result)
 
