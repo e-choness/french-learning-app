@@ -29,7 +29,10 @@ def print_result(results):
         print(results)
     else:
         for result in results:
-            print(result)
+            if type(result) == re.Match:
+                print(result.span(), result.start(), result.end(), result.group(0))
+            else:
+                print(result)
 
 
 
