@@ -1,4 +1,4 @@
-import re_module as rm
+import practices.re_module as rm
 
 text_string = "123abc456789abc123ABC."
 

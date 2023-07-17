@@ -1,4 +1,4 @@
-import re_module as rm
+import practices.re_module as rm
 
 test_string = "helloHELLO 123-_"
 
